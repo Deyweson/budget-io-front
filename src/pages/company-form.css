@@ -1,0 +1,25 @@
+.info-form {
+  width: 40rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: 1px solid rgba(0, 0, 0, 0.204);
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 15px;
+}
+
+.info-form>div {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.info-form  input {
+  all: unset;
+  border: 1px solid rgba(0, 0, 0, 0.131);
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 5px;
+  width: 300px;
+}
